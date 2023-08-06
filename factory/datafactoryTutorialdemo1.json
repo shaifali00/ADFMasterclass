@@ -1,0 +1,9 @@
+{
+	"name": "datafactoryTutorialdemo1",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b7170328-ef93-480c-96c3-599e8b519e87",
+		"tenantId": "4187ba4a-6d82-4a3d-bad9-607df39a5c93"
+	}
+}
