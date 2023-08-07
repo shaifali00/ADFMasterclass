@@ -149,11 +149,6 @@
 				]
 			}
 		],
-		"parameters": {
-			"test": {
-				"type": "string"
-			}
-		},
 		"annotations": [],
 		"lastPublishTime": "2023-07-27T08:09:48Z"
 	},
