@@ -21,6 +21,10 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
+							"wildcardFolderPath": {
+								"value": "@pipeline().parameters.bo",
+								"type": "Expression"
+							},
 							"wildcardFileName": "*",
 							"enablePartitionDiscovery": false
 						},
@@ -57,7 +61,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DelimitedText3",
+						"referenceName": "DelimitedText4",
 						"type": "DatasetReference"
 					}
 				]
